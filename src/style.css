@@ -1,11 +1,11 @@
 :root {
-  --primary-color: #6c63ff;
+  --primary-color: #306677;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
-  margin: 100px auto;
+  margin: auto;
 }
 
 p {
@@ -32,6 +32,19 @@ h3 {
   opacity: 0.7;
 }
 
+.navbar a {
+  color: var(--primary-color);
+}
+
+.navbar .navbar-brand {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.navbar .nav-home {
+  font-weight: bold;
+}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -44,6 +57,13 @@ h3 {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+}
+
+.project-description {
+  background: #cde2f1;
+  text-align: center;
+  padding: 120px 60px 80px;
+  margin: 0;
 }
 
 .contact-link {
@@ -86,6 +106,15 @@ h3 {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+.footer-contact span {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-contact i {
+  margin: auto 9px;
 }
 
 @media (max-width: 576px) {
