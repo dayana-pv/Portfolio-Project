@@ -15,11 +15,15 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://kit.fontawesome.com/a246d93935.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="/src/style.css" />
     <title>About me - Dayana Peve</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg bg-white fixed-top">
       <div class="container">
         <a class="navbar-brand" href="/" title="Homepage">Dayana Peve</a>
         <button
@@ -42,7 +46,7 @@
             </li>
             <li class="nav-item">
               <a
-                class="nav-link active"
+                class="nav-link active nav-home"
                 href="/about.html"
                 title="About Dayana Peve"
                 >About me</a
@@ -50,7 +54,7 @@
             </li>
             <li class="nav-item">
               <a
-                class="nav-link"
+                class="nav-link active"
                 href="/about.html#contact"
                 title="Contact Dayana Peve"
                 >Contact me</a
@@ -60,44 +64,80 @@
         </div>
       </div>
     </nav>
-    <h1 class="text-center">About me</h1>
-    <h3 class="text-center">Front-end developer from Lima, Peru</h3>
+    <div class="project-description">
+      <h1 class="text-center">About me</h1>
+      <h3 class="text-center">Front-end developer from Lima, Peru</h3>
+    </div>
     <div class="about-paragraphs text-center">
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-        blanditiis harum.
+        Hi, my name is Dayana. I am a developer and i enjoy building web
+        applications.
       </p>
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-sm-4">
+        <div class="col-sm-6">
           <img
-            src="images/yoga.png"
-            alt="Yoga image"
+            src="images/photography.PNG"
+            alt="Photography image"
             class="img-fluid p-2 mb-4 shadow rounded"
           />
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-6">
           <img
             src="images/weather.png"
             alt="Weather image"
             class="img-fluid p-2 mb-4 shadow rounded"
           />
         </div>
-        <div class="col-sm-4">
-          <img
-            src="images/yogurt.png"
-            alt="Yogurt image"
-            class="img-fluid p-2 mb-4 shadow rounded"
-          />
-        </div>
       </div>
     </div>
-    <div id="contact" class="mt-5">
-      <h2 class="text-center">📮 Contact me</h2>
-      <a href="mailto:dayana@gmail.com" class="email-link">dayana@gmail.com</a>
-    </div>
+
+    <footer id="contact" class="container">
+      <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a
+            href="/about.html#contact"
+            class="contact-link btn btn-branding mt-3"
+            title="Contact dayana"
+          >
+            Contact me</a
+          >
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5 footer-contact">
+        <a href="mailto:dayana@gmail.com" class="email-link"
+          >dayana@gmail.com</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center mb-5">
+        <a
+          href="https://www.github.com/dayana"
+          target="_blank"
+          title="Github Profile"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/dayana"
+          target="_blank"
+          title="Instagram Profile"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a
+          href="https://www.twitter.com/dayana"
+          target="_blank"
+          title="Twitter Profile"
+          ><i class="fab fa-twitter"></i
+        ></a>
+      </div>
+      <p class="text-center mt-5">
+        ✌️ This project was coded SheCodes, and it is
+        <a href="https://www.github.com/dayana" target="_blank">open-sourced</a>
+      </p>
+    </footer>
   </body>
 </html>
